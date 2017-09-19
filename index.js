@@ -67,7 +67,7 @@ $(function(){
     txt.keyup(func).blur(func);
 });
 currDate = new Date();
-var = currDate.getFullYear();
+currYear = currDate.getFullYear();
 
 // funkciq za izchisleniq
 function caclSalary() {
@@ -155,12 +155,12 @@ function caclSalary() {
     // premahva chisla sled zapetaqta
     workYears = workYears.toFixed(0);
     // prevrushta workYears v chislo
-    var sumYears = (currYear + +workYears);
+    // var sumYears = (+currYear + +workYears);
     // izvejda rezultata
         document.getElementById('result').innerHTML =
         celebName + ' earned ' + celebAnswer + ' in the past year.' + '<br>'
         + 'You have to work ' + workYears + ' years to earn that much!' + '<br>'
-        + 'You will be done by the year ' + +sumYears +'!' + '<br>'
+        // + 'You will be done by the year ' + sumYears +'!' + '<br>'
         + celebSex + ' earns ' + ' your salary ' + ' for ' + t + '!' + '<br>'
         + 'Since you`ve been using this page ' + celebSex.toLowerCase() + ' earned: <br> ';
         // Функция за обновяване на изкараното за секунда от звездата
