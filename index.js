@@ -67,7 +67,7 @@ $(function(){
     txt.keyup(func).blur(func);
 });
 currDate = new Date();
-currYear = currDate.getFullYear();
+var currYear = currDate.getFullYear();
 
 // funkciq za izchisleniq
 function caclSalary() {
