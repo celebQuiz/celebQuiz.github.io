@@ -67,7 +67,7 @@ $(function(){
     txt.keyup(func).blur(func);
 });
 currDate = new Date();
-var currYear = currDate.getFullYear();
+var = currDate.getFullYear();
 
 // funkciq za izchisleniq
 function caclSalary() {
@@ -155,7 +155,7 @@ function caclSalary() {
     // premahva chisla sled zapetaqta
     workYears = workYears.toFixed(0);
     // prevrushta workYears v chislo
-    var sumYears = (+currYear + +workYears);
+    var sumYears = (currYear + +workYears);
     // izvejda rezultata
         document.getElementById('result').innerHTML =
         celebName + ' earned ' + celebAnswer + ' in the past year.' + '<br>'
