@@ -1,0 +1,45 @@
+<html>
+    <head>
+            <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>       
+            <script type="text/javascript" src="index.js"></script>
+            <link rel="stylesheet" type="text/css" href="index.css">
+           
+    </head>
+    <body>
+        <div class="test">
+        <h2 id="listHeading">Select a celebrity and compare your earnings to theirs!</h2>
+        </div>
+        <p class="enterSalary"> Enter your monthly salary below </p>
+        <input id="userSalary"  type="text" name="Monthly Salary" placeholder="monthly salary" onfocus="this.placeholder = ''" onblur="this.placeholder = 'monthly salary'">
+        <br>
+        <br>
+        <p class="enterSalary"> Choose a celebrity from the list </p>
+        <select id="mStars">
+        <option value="default">------Choose a celebrity------</option>
+        <option value="theRock">Dwayn "The Rock" Johnson</option>
+        <option value="cPrat">Cris Pratt</option>
+        <option value="rReynolds">Rayan Reynolds</option>
+        <option value="cHemsworth">Chris Hemsworth</option>
+        <option value="rDowney">Robert Downey Jr.</option>
+        <option value="jChan">Jackie Chan</option>
+        <option value="vDiesel">Vin Diesel</option>
+        <option value="lGaga">Lady Gaga</option>
+        <option value="jBieber">Justin Bieber</option>
+        <option value="usher">Usher</option>
+        <option value="tSwift">Taylor Swift</option>
+        <option value="kPerry">Katy Perry</option>
+        <option value="beyonce">Beyonce Knowles</option>
+        </select>
+        <br>
+        <br>
+        <p class="enterSalary"> Smash the button to see the result </p>
+        <button onclick="caclSalary()" id="submit">  Calculate </button>
+        
+        <div id="myProgress">
+            <div id="myBar">0%</div>
+        </div>
+        <p id="result" class="enterSalary"> </p>
+        <p id="earningTime" class"enterSalary"> </p>
+        <button id=clear> Choose Another Celeb </button>
+    </body>
+</html>
