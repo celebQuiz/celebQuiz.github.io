@@ -160,7 +160,7 @@ function caclSalary() {
         document.getElementById('result').innerHTML =
         celebName + ' earned ' + celebAnswer + ' in the past year.' + '<br>'
         + 'You have to work ' + workYears + ' years to earn that much!' + '<br>'
-        + 'You will be done by the year ' + sumYears +'!' + '<br>'
+        + 'You will be done by the year ' + +sumYears +'!' + '<br>'
         + celebSex + ' earns ' + ' your salary ' + ' for ' + t + '!' + '<br>'
         + 'Since you`ve been using this page ' + celebSex.toLowerCase() + ' earned: <br> ';
         // Функция за обновяване на изкараното за секунда от звездата
