@@ -66,7 +66,7 @@ $(function(){
     }
     txt.keyup(func).blur(func);
 });
-var currDate = new Date();
+currDate = new Date();
 var currYear = currDate.getFullYear();
 
 // funkciq za izchisleniq
